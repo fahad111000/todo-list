@@ -10,10 +10,18 @@ body {
     font-family: sans-serif;
 }
 
+/* Custome Classes */
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(29, 126, 252);
+    color: #ffff;
+}
+
 /* Main Wrapper */
 .wrapper {
     padding: 20px;
-    border: 2px solid black;
+    border: 1px solid rgb(180, 178, 178);
     width: 27%;
 }
 
@@ -31,22 +39,19 @@ body {
 input {
     width: 100%;
     font-size: 15px;
-    padding: 5px;
+    padding: 10px;
     outline: none;
     border: 1px solid rgba(129, 128, 128, 0.562);
     color: rgb(61, 60, 60);
 }
 
-.input-field button {
-    cursor: pointer;
+.input-field .btn{
     padding: 10px 15px;
-    border: none;
-    background-color: rgb(29, 126, 252);
 }
 
 .input-field button:hover {
     background-color: rgb(35, 108, 204);
-
+    
 }
 
 .input-field .fa-plus {
@@ -68,7 +73,27 @@ ul {
 ul li {
     color: rgb(20, 20, 20);
     background-color: rgba(218, 213, 213, 0.767);
-    padding: 10px;
+    padding: 13px 10px;
     margin-bottom: 5px;
     font-size: 15px;
+}
+
+/* ______________ */
+.pending-lists {
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pending-lists .btn  {
+    padding: 10px;
+    background-color: black;
+    border-radius: 3px;
+    
+}
+
+.pending-lists .btn:hover {
+    background-color: maroon;
 }
