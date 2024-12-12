@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+/* Main Wrapper */
+.wrapper {
+    padding: 20px;
+    border: 2px solid black;
+    width: 30%;
+}
+
+.todo-list-heading {
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.input-field {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 2px;
+}
+
+input {
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgba(129, 128, 128, 0.562);
+}
+
+.input-field button {
+    cursor: pointer;
+    padding: 10px 15px;
+}
