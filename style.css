@@ -14,7 +14,7 @@ body {
 .wrapper {
     padding: 20px;
     border: 2px solid black;
-    width: 30%;
+    width: 27%;
 }
 
 .todo-list-heading {
@@ -52,4 +52,23 @@ input {
 .input-field .fa-plus {
     font-size: 16px;
     color: #ffff;
+}
+
+/* ________ */
+.todo-list {
+    /* border: 2px solid orange; */
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    color: rgb(20, 20, 20);
+    background-color: rgba(218, 213, 213, 0.767);
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
 }
