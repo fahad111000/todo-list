@@ -15,15 +15,17 @@
     <div class="wrapper">
         <h1 class="todo-list-heading">Todo List</h1>
         <div class="input-field">
-            <input type="text" placeholder="Add your new Todo">
-            <button class="btn"><i class="fa-solid fa-plus"></i></button>
+            <input id="newInput" type="text" placeholder="Add your new Todo">
+            <button class="btn" id="addTask"><i class="fa-solid fa-plus"></i></button>
         </div>
 
-        <ul class="todo-list">
-            <li>Learn JavaScript </li>
-            <li>Creating Todo List</li>
+        <!-- Todo List -->
+        <ul id="ulItems" class="todo-list">
+            <!-- <li>Learn JavaScript </li>
+            <li>Creating Todo List</li> -->
         </ul>
 
+        <!-- Pending List -->
         <div class="pending-lists">
             <p>You have 3 Pending Tasks</p>
             <button class="btn">Clear All</button>
@@ -32,6 +34,9 @@
 
     <!-- Font Awsome -->
     <script src="https://kit.fontawesome.com/0f509bf410.js" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+     <script src="script.js"></script>
 </body>
 
 </html>
