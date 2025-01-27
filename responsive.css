@@ -12,16 +12,23 @@
     }
 }
 
-@media (375px <=width <=768px) {
+@media (425px <=width <=768px) {
     .wrapper {
-        width: 50%;
+        width: 75%;
+        margin-top: 70px;
+    }
 
+
+    input {
+        font-size: 14px;
+        padding: 10px;
     }
 }
 
-@media (320px <=width <=375px) {
+@media (375px <=width <=425px) {
     .wrapper {
         width: 80%;
+        margin-top: 50px;
 
     }
 
@@ -30,6 +37,18 @@
         gap: 20px;
     }
 
+
+    .pending-lists .btn {
+        width: 100%;
+    }
+
+}
+
+@media (320px <=width <=375px) {
+    .wrapper {
+        width: 90%;
+
+    }
 
     .pending-lists .btn {
         width: 100%;
