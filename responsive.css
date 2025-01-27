@@ -1,0 +1,38 @@
+@media (768px <=width <=1024px) {
+    .wrapper {
+        border: 1px solid rgb(224, 214, 214);
+        width: 50%;
+
+    }
+
+
+    .todo-list-heading {
+        font-size: 25px;
+        padding: 12px 0;
+    }
+}
+
+@media (375px <=width <=768px) {
+    .wrapper {
+        width: 50%;
+
+    }
+}
+
+@media (320px <=width <=375px) {
+    .wrapper {
+        width: 80%;
+
+    }
+
+    .pending-lists {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .pending-lists .btn {
+        width: 100%;
+    }
+
+}

@@ -11,7 +11,7 @@ addTask.addEventListener('click', () => {
     if (newInput.value === '') {
         alert("Please add some Tasks");
     }
-    
+
     if (editedText) {
         editedText.firstChild.textContent = newInput.value;
         editedText = null
