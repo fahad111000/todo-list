@@ -45,13 +45,13 @@ input {
     color: rgb(61, 60, 60);
 }
 
-.input-field .btn{
+.input-field .btn {
     padding: 10px 15px;
 }
 
 .input-field button:hover {
     background-color: rgb(35, 108, 204);
-    
+
 }
 
 .input-field .fa-plus {
@@ -61,22 +61,53 @@ input {
 
 /* ________ */
 .todo-list {
-    /* border: 2px solid orange; */
     margin: 10px 0;
 }
 
-ul {
-    list-style: none;
-
-}
 
 ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: rgb(20, 20, 20);
     background-color: rgba(218, 213, 213, 0.767);
-    padding: 13px 10px;
+    padding: 7px 10px;
     margin-bottom: 5px;
     font-size: 15px;
 }
+
+
+.delete,
+.edit{
+    margin-left: 4px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: #ffff;
+    border-radius: 2px;
+}
+
+
+.delete {
+    background-color: rgb(219, 8, 8);
+}
+
+.delete:hover {
+    background-color: rgb(175, 9, 9);
+
+}
+
+
+.edit {
+    background-color: rgb(35, 108, 204);
+}
+
+.edit:hover {
+
+    background-color: rgb(12, 85, 180);
+}
+
 
 /* ______________ */
 .pending-lists {
@@ -86,11 +117,11 @@ ul li {
     justify-content: space-between;
 }
 
-.pending-lists .btn  {
+.pending-lists .btn {
     padding: 10px;
     background-color: black;
     border-radius: 3px;
-    
+
 }
 
 .pending-lists .btn:hover {
